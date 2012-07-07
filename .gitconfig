@@ -1,0 +1,10 @@
+[user]
+	name = shibu_t
+	email = cockpits526@gmail.com
+[color]
+	ui = auto
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	pr = pull
