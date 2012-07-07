@@ -17,15 +17,15 @@ set whichwrap=b,s,[,],<,>,~
 " マウス機能有効化
 set mouse=a
 
+"見えない文字の表示
+set list
+set listchars=eol:¬,tab:▸\ 
+
 " シンタックスハイライト有効化 (背景黒向け。白はコメントアウト
 " されている設定を使用)
 syntax on
-highlight Normal ctermbg=black ctermfg=grey
-highlight StatusLine term=none cterm=none ctermfg=black ctermbg=grey
-highlight CursorLine term=none cterm=none ctermfg=none ctermbg=darkgray
-"highlight Normal ctermbg=grey ctermfg=black
-"highlight StatusLine term=none cterm=none ctermfg=grey ctermbg=black
-"highlight CursorLine term=none cterm=none ctermfg=darkgray ctermbg=none
+colorscheme jellybeans
+
 set nohlsearch " 検索キーワードをハイライトしないように設定
 set cursorline " カーソルラインの強調表示を有効化
 
