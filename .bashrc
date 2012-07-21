@@ -3,6 +3,9 @@ export PATH=/usr/local/sbin:$PATH # for Homebrew
 export PATH=/usr/local/bin:$PATH  # for Homebrew
 export PATH=/usr/local/mysql/bin:$PATH  # for Homebrew
 
+#Language setting
+export LANG=ja_JP.UTF-8
+
 # Application Shortcuts
 alias cot='open -g -a CotEditor' # ターミナルからCotEditorを開く
 alias coda='open -g -a Coda' # ターミナルからCodaを開く
@@ -25,3 +28,6 @@ alias sr='screen -d -R'
 alias grep='grep --exclude=*.svn*'
 alias greprn='grep -rn --exclude=*.svn*'
 alias bye='sudo shutdown -h now'
+
+alias javac='javac -J-Dfile.encoding=UTF-8'
+alias java='java -Dfile.encoding=UTF-8'
