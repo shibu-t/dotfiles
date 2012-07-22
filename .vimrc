@@ -1,3 +1,6 @@
+set encoding=utf-8
+set fileencodings=iso-2022-jp,sjis,utf8,euc-jp
+
 " [Backspace] で既存の文字を削除できるように設定
 "  start - 既存の文字を削除できるように設定
 "  eol - 行頭で[Backspace]を使用した場合上の行と連結
@@ -16,6 +19,7 @@ set whichwrap=b,s,[,],<,>,~
 
 " マウス機能有効化
 set mouse=a
+set ttymouse=xterm2
 
 "見えない文字の表示
 set list
@@ -31,6 +35,9 @@ set cursorline " カーソルラインの強調表示を有効化
 
 " 行番号を表示
 set number
+
+"オートインデントを有効化
+set autoindent
 
 " ステータスラインを表示
 set laststatus=2 " ステータスラインを常に表示
