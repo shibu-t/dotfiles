@@ -58,3 +58,8 @@ set clipboard=unnamed,autoselect
 
 " neocomplcache
 let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
+
+" minibufexpl
+:let g:miniBufExplMapWindowNavVim = 1
+:let g:miniBufExplMapWindowNavArrows = 1
+:let g:miniBufExplMapCTabSwitchBuffs = 1
