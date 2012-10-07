@@ -52,3 +52,9 @@ set wildmenu wildmode=list:full
 " 自動的にファイルを読み込むパスを設定 ~/.vim/userautoload/*vim
 set runtimepath+=~/.vim/
 runtime! userautoload/*.vim
+
+"ヤンク時に自動でクリップボードにコピー
+set clipboard=unnamed,autoselect
+
+" neocomplcache
+let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
