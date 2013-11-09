@@ -7,4 +7,16 @@
 	co = checkout
 	br = branch
 	st = status
-	pr = pull
+	pl = pull
+    diff = df
+    dfc = diff --cached
+    ci = commit
+    au = add -u
+[push]
+    default = tracking
+[core]
+    editor = vim
+    pager  = "lv -c"
+    quotepath = false
+[github]
+    user = shibu-t
