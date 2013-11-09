@@ -106,3 +106,6 @@ export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 
 # keychain
 #source ~/.keychain/zeta-takahiro-shibuya-sh
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+

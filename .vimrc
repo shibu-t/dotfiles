@@ -69,6 +69,17 @@ set shiftwidth=4
 set softtabstop=4
 set tabstop=4
 
+" rvm でいれたrubyをvimのquick runで使う
+let g:quickrun_config = {}
+
+if strlen($rvm_bin_path)
+    let g:quickrun_config['ruby'] = {
+                \       'command': 'ruby',
+                \       'exec': '$rvm_bin_path/ruby %s',
+                \       'tempfile': '{tempname()}.rb'
+                \    }
+endif
+
 " 最近開いたファイル履歴の保存数
 let g:unite_source_file_mru_limit = 2000
 

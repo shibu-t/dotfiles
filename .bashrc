@@ -32,3 +32,5 @@ alias bye='sudo shutdown -h now'
 
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
