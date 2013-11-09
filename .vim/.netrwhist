@@ -1,8 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/shibu_t/.vim'
-let g:netrw_dirhist_2='/Users/shibu_t/.vim/colors'
-let g:netrw_dirhist_3='/Users/shibu_t/pg/node/webdbexpress'
-let g:netrw_dirhist_4='/Users/shibu_t/Dropbox/Public/shakin'
-let g:netrw_dirhist_5='/Users/shibu_t/Dropbox/Public/shakin/css'
-let g:netrw_dirhist_6='/Users/shibu_t/Dropbox/Public/shakin'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/shibu_t'
+let g:netrw_dirhist_2='/Users/shibu_t/.config'
+let g:netrw_dirhist_3='/Users/shibu_t'
+let g:netrw_dirhist_4='/Users'
+let g:netrw_dirhist_5='/Users/shibu_t'
